@@ -4,7 +4,7 @@ import numpy as np
 from matplotlib.widgets import RangeSlider
 from PIL import Image, ImageOps
 
-IM_FILE = sys.argv[1]
+IM_FILE = 'optical_resolution_test_chart.jpeg'
 
 def filter_circle(max_dim, inner_radius, outer_radius):
     thickness = outer_radius - inner_radius
